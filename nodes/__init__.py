@@ -1,9 +1,9 @@
 
-from .image.image_crop_alpha_node import ImageCropByAlphaAdvanced
+from .image.image_crop_alpha_node import ImageCropByAlpha
 NODE_CLASS_MAPPINGS = {
-    "ImageCropByAlphaAdvanced": ImageCropByAlphaAdvanced,
+    "ImageCropByAlpha": ImageCropByAlpha,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ImageCropByAlphaAdvanced": "ImageCropByAlphaAdvanced (Image)",
+    "ImageCropByAlpha": "ImageCropByAlpha (Image)",
 }
