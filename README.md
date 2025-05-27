@@ -7,3 +7,7 @@
 
 > ImageCropAlphaNode
 
+![image](https://github.com/user-attachments/assets/85b268cf-1857-415f-add5-ab9098d7beea)
+直接裁掉多余空间
+![image](https://github.com/user-attachments/assets/4e668eef-5af3-4e2f-8535-69a757a6d0e1)
+
