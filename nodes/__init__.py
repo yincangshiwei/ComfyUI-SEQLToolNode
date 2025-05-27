@@ -5,5 +5,5 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ImageCropByAlpha": "ImageCropByAlpha (Image)",
+    "ImageCropByAlpha": "ImageCropAlphaNode (Image)",
 }
