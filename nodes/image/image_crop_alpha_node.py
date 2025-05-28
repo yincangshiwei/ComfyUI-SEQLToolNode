@@ -99,7 +99,7 @@ def pil_to_tensor(pil_images):
         raise e
 
 
-class ImageCropByAlphaAdvanced:
+class ImageCropByAlpha:
     """
     A ComfyUI node to crop an image based on its alpha channel content or overall content.
     Optionally crops a provided mask using the same bounding box.
@@ -292,16 +292,16 @@ class ImageCropByAlphaAdvanced:
 
 
 NODE_CLASS_MAPPINGS = {
-    "ImageCropByAlphaAdv": ImageCropByAlphaAdvanced
+    "ImageCropByAlpha": ImageCropByAlpha
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ImageCropByAlphaAdv": "Crop Image by Alpha (Adv)"
+    "ImageCropByAlpha": "Crop Image by Alpha"
 }
 
 # Test execution
 if __name__ == "__main__":
-    cropper = ImageCropByAlphaAdvanced()
+    cropper = ImageCropByAlpha()
 
 
     # Helper to save images/masks for inspection
